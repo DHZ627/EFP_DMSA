@@ -29,7 +29,7 @@ The project requires the following Python libraries and versions (recommended to
 
 #### 方法一：使用 `pip` 安装（推荐） Method 1: Install via `pip` (Recommended)
    ```bash
-      pip install numpy matplotlib scipy SALib pandas Installation Requirementspip install numpy matplotlib scipy       SALib pandas
+      pip install numpy matplotlib scipy SALib pandas
    ```
 
 #### 方法二：使用 `requirements.txt` 文件 Method 2: Use `requirements.txt`
