@@ -2,8 +2,13 @@
 
 ## 项目简介 Project Overview
 
-本程序用于分析爆炸成型弹丸(EFP)的弹道散布特性，通过蒙特卡洛模拟和Sobol全局敏感性分析评估各种误差因素对EFP命中精度的影响。程序可以计算命中概率、95%概率圆半径，并可视化落点分布和敏感性分析结果。
-This program is designed to analyze the dispersion characteristics of Explosively Formed Penetrators (EFPs). It uses Monte Carlo simulation and Sobol global sensitivity analysis to evaluate the impact of various error factors on EFP hit accuracy. The program can calculate hit probability, 95% probability circle radius, and visualize impact distributions and sensitivity analysis results.
+本程序用于分析爆炸成型弹丸(EFP)的弹道散布特性，通过蒙特卡洛模拟和Sobol全局敏感性分析评估各种误差因素对EFP命中精度的影响。
+
+程序可以计算命中概率、95%概率圆半径，并可视化落点分布和敏感性分析结果。
+
+This program is designed to analyze the dispersion characteristics of Explosively Formed Penetrators (EFPs). It uses Monte Carlo simulation and Sobol global sensitivity analysis to evaluate the impact of various error factors on EFP hit accuracy. 
+
+The program can calculate hit probability, 95% probability circle radius, and visualize impact distributions and sensitivity analysis results.
 
 
 ## 环境配置 Environment Configuration
@@ -26,13 +31,7 @@ The project requires the following Python libraries and versions (recommended to
 
 1. 创建并激活 Python 虚拟环境（可选，但建议使用）：Create and activate a Python virtual environment (optional but recommended):
    ```bash
-   # Linux/macOS
-   python -m venv venv
-   source venv/bin/activate
-
-   # Windows
-   python -m venv venv
-   venv\Scripts\activate
+pip install numpy matplotlib scipy SALib pandas Installation Requirementspip install numpy matplotlib scipy SALib pandas
    ```
 2. 安装依赖库： Install dependencies:
    ```bash
@@ -55,9 +54,11 @@ The project requires the following Python libraries and versions (recommended to
 
 ### 版本说明 Version Notes
 
-- `SALib==1.4.6` 是经过测试的兼容版本，避免使用 `1.5.0+` 版本（可能包含弃用接口）。`SALib==1.4.6` is the tested compatible version. Avoid using `1.5.0+` (may include deprecated interfaces).
+- `SALib==1.4.6` 是经过测试的兼容版本，避免使用 `1.5.0+` 版本（可能包含弃用接口）。
+- `SALib==1.4.6` is the tested compatible version. Avoid using `1.5.0+` (may include deprecated interfaces).
 
-- 若遇到兼容性警告，可尝试升级 `pandas` 或添加警告过滤（见代码注释）。If compatibility warnings occur, try upgrading `pandas` or adding warning filters (see comments in the code).
+- 若遇到兼容性警告，可尝试升级 `pandas` 或添加警告过滤（见代码注释）。
+- If compatibility warnings occur, try upgrading `pandas` or adding warning filters (see comments in the code).
 
 
 ## 功能特点 Features
@@ -67,10 +68,11 @@ The project requires the following Python libraries and versions (recommended to
 - Sobol全局敏感性分析 Sobol global sensitivity analysis
 - 可视化EFP落点分布和参数敏感性 Visualization of EFP impact distribution and parameter sensitivity
 
-## 安装依赖pip install numpy matplotlib scipy SALib pandas Installation Requirementspip install numpy matplotlib scipy SALib pandas
 
-使用方法python main.py程序将自动执行蒙特卡洛模拟和敏感性分析，并生成相应的图表和结果文件。
-Usagepython main.pyThe program will automatically execute the Monte Carlo simulation and sensitivity analysis, then generate corresponding charts and result files.
+## 使用方法
+`main.py` 程序将自动执行蒙特卡洛模拟和敏感性分析，并生成相应的图表和结果文件。
+
+Usage python `main.py` The program will automatically execute the Monte Carlo simulation and sensitivity analysis, then generate corresponding charts and result files.
 
 ## 项目结构 Project Structureefp/
 ```plaintext
@@ -90,7 +92,9 @@ EFP_DMSA/
 - `global_sobol.csv`: 详细的敏感性分析数据 Detailed sensitivity analysis data
 
 ## 贡献 Contributions
+
 欢迎对本项目提出建议或贡献代码。如需帮助，请联系项目维护者。
+
 Suggestions and code contributions are welcome. Please contact the project maintainer for assistance.
 
 
