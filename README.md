@@ -94,10 +94,10 @@ EFP_DMSA/
 *Figure Note: The red rectangle is the target area and the blue dashed circle is the 95% probability circle
 Parameter sensitivity analysis results*
 
-### 2. Sensitivity analysis results 
+### 2. 敏感性分析结果 Sensitivity analysis results 
 ![Sensitivity analysis](sensitivity_analysis.png)  
 *图注：横轴为敏感度指数，柱体颜色分别表示一阶敏感度和总阶敏感度。* 
-*Figure note: The horizontal axis is the sensitivity index, and the bar colors indicate first-order sensitivity and total-order sensitivity, respectively. * 
+*Figure note: The horizontal axis is the sensitivity index, and the bar colors indicate first-order sensitivity and total-order sensitivity, respectively* 
 
 ## 贡献 Contributions
 
