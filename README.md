@@ -25,8 +25,7 @@ The project requires the following Python libraries and versions (recommended to
 ### Setup Steps
 #### 方法一：使用 `pip` 安装（推荐）
 #### Method 1: Install via `pip` (Recommended)
-1. 创建并激活 Python 虚拟环境（可选，但建议使用）：
-1. Create and activate a Python virtual environment (optional but recommended):
+1. 创建并激活 Python 虚拟环境（可选，但建议使用）：Create and activate a Python virtual environment (optional but recommended):
    ```bash
    # Linux/macOS
    python -m venv venv
@@ -36,16 +35,14 @@ The project requires the following Python libraries and versions (recommended to
    python -m venv venv
    venv\Scripts\activate
    ```
-2. 安装依赖库：
-2. Install dependencies:
+2. 安装依赖库： Install dependencies:
    ```bash
    pip install numpy matplotlib scipy SALib==1.4.6 pandas
    ```
 
 #### 方法二：使用 `requirements.txt` 文件
 #### Method 2: Use `requirements.txt`
-1. 创建 `requirements.txt` 文件（内容如下）：
-1. Create a `requirements.txt` file with the following content:
+1. 创建 `requirements.txt` 文件（内容如下）： Create a `requirements.txt` file with the following content:
    ```txt
    numpy>=1.21.0
    matplotlib>=3.4.0
@@ -53,8 +50,7 @@ The project requires the following Python libraries and versions (recommended to
    SALib==1.4.6
    pandas>=1.3.0
    ```
-2. 安装依赖：
-2. Install dependencies:
+2. 安装依赖： Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -78,15 +74,15 @@ The project requires the following Python libraries and versions (recommended to
 ## 使用方法python main.py程序将自动执行蒙特卡洛模拟和敏感性分析，并生成相应的图表和结果文件。
 ## Usagepython main.pyThe program will automatically execute the Monte Carlo simulation and sensitivity analysis, then generate corresponding charts and result files.
 
-## 项目结构efp-trajectory-analysis/
-├── main.py                # 主程序入口
-├── parameters.py          # 参数配置模块
-├── model.py               # 模型计算模块
-├── visualization.py       # 可视化模块
-├── impact_distribution.png # 落点分布图
-├── sensitivity_analysis.png # 敏感性分析图
-├── global_sobol.csv       # 敏感性分析结果
-└── README.md              # 项目说明文档
+## 项目结构 Project Structureefp/
++--main.py                # 主程序入口 Main program entry
++-- parameters.py          # 参数配置模块 Parameter configuration module
++-- model.py               # 模型计算模块 Model calculation module
++-- visualization.py       # 可视化模块 Visualization module
++-- impact_distribution.png # 落点分布图 Impact distribution chart
++-- sensitivity_analysis.png # 敏感性分析图 Sensitivity analysis chart
++-- global_sobol.csv       # 敏感性分析结果 Sensitivity analysis results
++-- README.md              # 项目说明文档 Project documentation
 
 ## 结果说明
 ## Results Explanation
@@ -100,18 +96,6 @@ The project requires the following Python libraries and versions (recommended to
 Suggestions and code contributions are welcome. Please contact the project maintainer for assistance.
 
 
-
-
-
-## Project Structureefp-trajectory-analysis/
-├── main.py                # Main program entry
-├── parameters.py          # Parameter configuration module
-├── model.py               # Model calculation module
-├── visualization.py       # Visualization module
-├── impact_distribution.png # Impact distribution chart
-├── sensitivity_analysis.png # Sensitivity analysis chart
-├── global_sobol.csv       # Sensitivity analysis results
-└── README.md              # Project documentation
 
 
 
