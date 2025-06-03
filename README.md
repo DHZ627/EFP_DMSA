@@ -68,6 +68,8 @@ The project requires the following Python libraries and versions (recommended to
 
 Usage python `main.py` The program will automatically execute the Monte Carlo simulation and sensitivity analysis, then generate corresponding charts and result files.
 
+
+
 ## 项目结构 Project Structureefp/
 ```plaintext
 EFP_DMSA/
@@ -84,6 +86,18 @@ EFP_DMSA/
 - `impact_distribution.png`: EFP落点分布和目标区域可视化 Visualization of EFP impact distribution and target area
 - `sensitivity_analysis.png`: 参数敏感性分析结果可视化 Visualization of parameter sensitivity analysis results
 - `global_sobol.csv`: 详细的敏感性分析数据 Detailed sensitivity analysis data
+
+## 可视化结果  
+### 1. 落点分布与目标区域  EFP distribution and target area
+![EFP distribution](impact_distribution.png)  
+*图注：红色矩形为目标区域，蓝色虚线圆为95%概率圆。*  
+*Figure Note: The red rectangle is the target area and the blue dashed circle is the 95% probability circle
+Parameter sensitivity analysis results*
+
+### 2. Sensitivity analysis results 
+![Sensitivity analysis](sensitivity_analysis.png)  
+*图注：横轴为敏感度指数，柱体颜色分别表示一阶敏感度和总阶敏感度。* 
+*Figure note: The horizontal axis is the sensitivity index, and the bar colors indicate first-order sensitivity and total-order sensitivity, respectively. * 
 
 ## 贡献 Contributions
 
