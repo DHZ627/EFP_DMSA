@@ -28,14 +28,8 @@ The project requires the following Python libraries and versions (recommended to
 ### 环境搭建步骤 Setup Steps
 
 #### 方法一：使用 `pip` 安装（推荐） Method 1: Install via `pip` (Recommended)
-
-1. 创建并激活 Python 虚拟环境（可选，但建议使用）：Create and activate a Python virtual environment (optional but recommended):
    ```bash
-pip install numpy matplotlib scipy SALib pandas Installation Requirementspip install numpy matplotlib scipy SALib pandas
-   ```
-2. 安装依赖库： Install dependencies:
-   ```bash
-   pip install numpy matplotlib scipy SALib==1.4.6 pandas
+      pip install numpy matplotlib scipy SALib pandas Installation Requirementspip install numpy matplotlib scipy       SALib pandas
    ```
 
 #### 方法二：使用 `requirements.txt` 文件 Method 2: Use `requirements.txt`
